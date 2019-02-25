@@ -1,0 +1,119 @@
+/*/navbar elements for google/*/
+
+body, html, .middle{
+	font-family: arial, sans-serif;
+	font-size: 14px;
+	height: 100%;
+}
+
+.navigation-bar{
+/*	background-color: red;
+*/	padding: 15px;
+}
+
+.navigation-bar ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+/*	background-color: yellow;*/ 
+
+}
+
+li a{
+	text-decoration: none;
+}
+
+.navigation-bar ul .lnav{
+/*	background-color: green;
+*/	list-style-type: none;
+	padding: 15px;
+	display: inline-block;
+	float: left;
+}
+
+.navigation-bar ul .rnav{
+/*	background-color: orange;
+*/	list-style-type: none;
+	padding: 15px;
+	display: inline-block;
+	float: right;
+
+}
+
+.navigation-bar .rnav img{
+	position: relative;
+	bottom: 5px;
+}
+
+.navigation-bar a:hover{
+	text-decoration: underline;
+}
+
+/*navbar google elements end*/
+
+/*Google Logo*/
+
+.middle .logo{
+	padding: 5px;
+	text-align: center;
+	position: relative;
+	top: 16vh;
+}
+/*end of Google Logo*/
+
+/*Google Search*/
+
+.middle input{
+	padding: 5px;
+	text-align: left;
+	position: relative;
+	width: 400px;
+	}
+
+.middle input[type=text]:hover{
+	box-shadow: 2px 2px #565656;	
+	border-opacity: 0.35;
+}
+
+.middle .searchbutton{
+	padding: 5px;
+	opacity: 0.7;
+	position: relative;
+	top: 10px;
+	left: -20px;
+}
+
+.middle .luckybutton{
+	padding: 5px;
+	opacity: 0.7;
+	position: relative;
+	top: 10px;
+	}
+
+/*end google search*/
+
+/*footers*/
+
+.footers2{
+	padding: 15px;
+	background-color: #ABABAB;
+}
+
+.footers2 ul{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: inline-block;
+	float: left;
+	
+}
+
+.footers2 li a{
+	text-decoration: none;
+}
+
+.footers2 li{
+	display: inline-block;
+}

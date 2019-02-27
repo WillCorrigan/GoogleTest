@@ -4,6 +4,8 @@ body, html, .middle{
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	height: 100%;
+	margin-left: -10px;
+	margin-right: 0px;
 }
 
 .navigation-bar{
@@ -95,25 +97,64 @@ li a{
 
 /*footers*/
 
-.footers2{
+.footer-bars{
 	padding: 15px;
-	background-color: #ABABAB;
+	height: 5%;
 }
 
-.footers2 ul{
+.footer-bars .t-bar{
+	padding: 5px;
+	background-color: #F2F2F2;
+	width: 100%;
+	border: 2px solid #E4E4E4;
+
+}
+.footer-bars .b-bar-left{
+	padding: 5px;
+	background-color: #F2F2F2;
+	width: 100%;
+	border: 2px;
+	border-style: none solid solid solid;
+	border-color: #E4E4E4
+}
+
+.footer-bars ul{
 	list-style-type: none;
 	margin: 0;
 	padding: 0;
 	overflow: hidden;
+/*	background-color: yellow;*/ 
+
+}
+
+li a{
+	text-decoration: none;
+	color: #ABABAB;
+}
+
+.footer-bars ul .bbar{
+*/	list-style-type: none;
+	padding: 15px;
 	display: inline-block;
 	float: left;
-	
 }
 
-.footers2 li a{
-	text-decoration: none;
-}
-
-.footers2 li{
+.footer-bars ul .bbarr{
+*/	list-style-type: none;
+	padding: 15px;
 	display: inline-block;
+	float: right;
+}
+
+.footer-bars ul .tbar{
+	list-style-type: none;
+	padding: 15px;
+	display: inline-block;
+	float: left;
+
+}
+
+
+.footer-bars a:hover{
+	text-decoration: underline;
 }

@@ -1,6 +1,6 @@
 /*/navbar elements for google/*/
 
-body, html, .middle{
+body, html{
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	height: 100%;
@@ -16,6 +16,7 @@ body, html, .middle{
 .navigation-bar{
 /*	background-color: red;
 */	padding: 15px;
+	z-index: 10;
 }
 
 .navigation-bar ul{
@@ -60,6 +61,9 @@ li a{
 /*navbar google elements end*/
 
 /*Google Logo*/
+.middle {
+	z-index: 1;
+}
 
 .middle .logo{
 	padding: 5px;

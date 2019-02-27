@@ -4,8 +4,13 @@ body, html, .middle{
 	font-family: arial, sans-serif;
 	font-size: 14px;
 	height: 100%;
-	margin-left: -10px;
+	margin-left: -15px;
 	margin-right: 0px;
+	position: fixed;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
 }
 
 .navigation-bar{
@@ -100,6 +105,9 @@ li a{
 .footer-bars{
 	padding: 15px;
 	height: 5%;
+	position: fixed;
+	bottom: 50px;
+	width: 100%;
 }
 
 .footer-bars .t-bar{
@@ -144,6 +152,7 @@ li a{
 	padding: 15px;
 	display: inline-block;
 	float: right;
+	margin-right: 5px;
 }
 
 .footer-bars ul .tbar{
